@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    /* background:linear-gradient(rgb(32, 38, 43),beige,rgb(11, 54, 11)); */
+    color: aliceblue;
+    background-color: black;
+   
+    
+   
+
+}
+
+.container {
+
+    border: 1px solid blue;
+    width: 400px;
+    /* height: 700px; */
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 30px;
+    background:linear-gradient(rgb(32, 38, 43),beige,rgb(11, 54, 11));
+
+
+}
+
+
+
+.para{
+    border: 1px solid white;
+    width: 310px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding-top: 15px;
+    background-color: rgb(11, 26, 31);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 20px;
+   
+}
+
+.searchBar{
+    margin-top: 30px;
+    margin-left: 40px;
+    position: relative;
+    /* display: none; */
+    margin-bottom: 20px;
+    
+
+    
+}
+
+
+ input.input{
+
+    background-color: white;
+    font-size: 1.4rem;
+    border-radius: 30px;
+    padding: 3px 4px 3px 7px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+
+  
+   
+}
+
+.btn {
+    border-radius: 30px ;
+    border: 1px solid blue;
+    font-size: small;
+    padding: 5px;
+    background-color: blue;
+    position: relative;
+    bottom: 3px;
+    left: 2px;
+
+  
+  
+
+  
+ 
+} 
+
+.video {
+
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    /* display: none; */
+   
+    
+   
+   
+}
+
+.vid{
+    width: 350px;
+    border-radius: 20px;
+    display: none;
+
+}
+
+
+
+
+
+
+.des {
+    padding: 10px;
+    font-weight: bolder;
+    background-color: black;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 6px;
+    text-align: center;
+    
+    font-size: x-large;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+
+
+    /* display: none; */
+   
+
+
+
+  
+   
+}
+
+.city {
+    margin-left: 130px;
+    margin-top: 20px;
+    color: black;
+    margin-bottom: 10px;
+    /* display: none; */
+}
+
+.deg  {
+  
+    display: flex;
+    margin-left: 15%;
+    color: black;
+  
+
+    font-size: 30px;
+}
+.temp , .sunrise , .sunset {
+    margin: 10px;
+}
+
+@media (max-width: 330px ) {
+
+    .container {
+
+        border: 1px solid blue;
+        width: 400px;
+        /* height: 700px; */
+        margin: 0 auto;
+        /* margin-top: 100px; */
+        border-radius: 30px;
+        background:linear-gradient(rgb(32, 38, 43),beige,rgb(11, 54, 11));
+    
+    
+    }
+    
+    
+    
+.searchBar{
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+    /* display: none; */
+    margin-bottom: 20px;
+    
+
+    
+}
+
+    
+}
