@@ -53,10 +53,15 @@ body{
     margin-bottom: 20px;
    
 }
+.searchBarContainer{
+    display: grid;
+    justify-content: center;
+}
 
 .searchBar{
     margin-top: 30px;
-    margin-left: 40px;
+    /* margin-left: 28px; */
+ 
     position: relative;
     /* display: none; */
     margin-bottom: 20px;
