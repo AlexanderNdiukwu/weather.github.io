@@ -16,6 +16,7 @@ body{
 .container{
     display: grid;
     justify-content: center;
+    align-content: center;
   
     height: 100vh;
 }
@@ -24,6 +25,8 @@ body{
 
     border: 1px solid blue;
     width: 28rem;
+    
+    
     
     border-radius: 20px;
   
