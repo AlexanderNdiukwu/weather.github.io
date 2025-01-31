@@ -24,7 +24,7 @@ body{
 .sub-container {
 
     border: 1px solid blue;
-    width: 28rem;
+    width: 24rem;
     
     
     
@@ -172,32 +172,12 @@ body{
 }
 
 @media (max-width: 330px ) {
-
-    .container {
-
-        border: 1px solid blue;
-        width: 400px;
-        /* height: 700px; */
-        margin: 0 auto;
-        /* margin-top: 100px; */
-        border-radius: 30px;
-        background:linear-gradient(rgb(32, 38, 43),beige,rgb(11, 54, 11));
-    
-    
+    .sub-container{
+       margin: 10px;
+       width: 20rem;
     }
-    
-    
-    
-.searchBar{
-    margin-top: 0px;
-    margin-left: 0px;
-    position: relative;
-    /* display: none; */
-    margin-bottom: 20px;
-    
 
     
-}
 
     
 }
