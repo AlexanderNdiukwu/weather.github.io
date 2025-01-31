@@ -8,20 +8,25 @@ body{
     /* background:linear-gradient(rgb(32, 38, 43),beige,rgb(11, 54, 11)); */
     color: aliceblue;
     background-color: black;
-   
+
     
    
 
 }
+.container{
+    display: grid;
+    justify-content: center;
+  
+    height: 100vh;
+}
 
-.container {
+.sub-container {
 
     border: 1px solid blue;
-    width: 400px;
-    /* height: 700px; */
-    margin: 0 auto;
-    margin-top: 100px;
-    border-radius: 30px;
+    width: 28rem;
+    
+    border-radius: 20px;
+  
     background:linear-gradient(rgb(32, 38, 43),beige,rgb(11, 54, 11));
 
 
