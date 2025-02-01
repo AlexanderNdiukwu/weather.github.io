@@ -43,23 +43,23 @@ async function schoolWeather() {
                 deg.textContent = 'hot'
             }
             if (data.weather[0].main === 'Clouds'){
-                video.src = '/video/cloudy.mp4'
+                video.src = 'video/cloudy.mp4'
                 desc.textContent = 'gonna rain carry your umbrella'
             }
             else if (data.weather[0].main === 'Clear'){
-                video.src = '/video/sunny.mp4'
+                video.src = 'video/sunny.mp4'
                 desc.textContent = 'clear sky so suncream'
             }
             else if (data.weather[0].main === 'Rain'){
-                video.src = '/video/rain.mp4'
+                video.src = 'video/rain.mp4'
                 desc.textContent = 'it is raining carry your umbrella'
             }
             else if (data.weather[0].main === 'Drizzle'){
-                video.src = '/video/windy.mp4'
+                video.src = 'video/windy.mp4'
                 desc.textContent = 'drizzin leave/carry your umbrella'
             }
             else if (data.weather[0].main === 'Mist'){
-                video.src = '/video/humid.mp4'
+                video.src = 'video/humid.mp4'
                 desc.textContent = 'Mist leave/carry your umbrella'
             }
 
