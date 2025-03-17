@@ -1,1 +1,1 @@
-# weather.github.io is a weather app that tells the weather
+# weather.github.io is a weather app that tells the weather that keeps you dry and ready
