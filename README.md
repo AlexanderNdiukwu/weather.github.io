@@ -2,4 +2,3 @@
 and it is the best weather and accurate weather app for students
 
 
-and teachers
